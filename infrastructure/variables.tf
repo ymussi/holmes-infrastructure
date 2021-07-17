@@ -60,7 +60,7 @@ variable "instance_type" {
 variable "instance_name" {
   type        = string
   description = "instance name"
-  default     = "holmes"
+  default     = "holmes-tf"
 }
 
 variable "bucket_acl" {
