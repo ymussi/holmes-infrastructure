@@ -14,14 +14,6 @@ terraform {
     }
   }
 
-  backend "s3" {
-    bucket  = "holmes-407187023185-dev"
-    key     = "holmes-407187023185-dev.tfstate"
-    region  = "us-east-1"
-    profile = "terraform"
-  }
-}
-
 provider "aws" {
   region  = var.aws_region
 }
