@@ -62,3 +62,9 @@ variable "instance_name" {
   description = "instance name"
   default     = "holmes"
 }
+
+variable "bucket_acl" {
+  type        = string
+  description = "Define a s3 bucket acl"
+  default     = "private"
+}
