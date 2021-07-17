@@ -3,7 +3,7 @@
 .DS_Store
 example.tf
 terraform.tfplan
-#terraform.tfstate
+terraform.tfstate
 bin/
 modules-dev/
 /pkg/
@@ -13,16 +13,18 @@ website/build
 website/node_modules
 .vagrant/
 *.backup
-#./*.tfstate/
+./*.tfstate/
 .terraform/
 *.log
 *.bak
+*.hcl
 *~
 .*.swp
 .idea
 *.iml
 *.test
 *.iml
+.vscode/
 
 website/vendor
 
@@ -34,3 +36,5 @@ node_modules/
 *.zip
 
 plan.tfout
+tfplan.out
+*.out
