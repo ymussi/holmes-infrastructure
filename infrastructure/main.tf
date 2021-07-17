@@ -13,6 +13,7 @@ terraform {
       version = "0.7.1"
     }
   }
+}
 
 provider "aws" {
   region  = var.aws_region
