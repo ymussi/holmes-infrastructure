@@ -12,6 +12,6 @@ locals {
     Environment = format("%s", var.environment)
     UpdatedAt   = time_static.time.rfc3339
     Owner       = var.owner
-    Teste     = "TF Learn"
+    Teste       = "TF Learn"
   }
 }
